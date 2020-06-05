@@ -2,7 +2,7 @@
 QRCode.js is javascript library for making QRCode. QRCode.js supports Cross-browser with HTML5 Canvas and table tag in DOM.
 QRCode.js has no dependencies.
 
-Project forked by Zhiyuan Ling from KeeeX/qrcodejs, I merged the border option from https://github.com/davidshimjs/qrcodejs/pull/54/commits/ceab422d98d36fb6b8f138954745d1b4461b28cb.
+Project forked by Yaya MNH48 (MuhdNurHidayat) from Zhiyuan Ling (zhiyuan-l) to [add GitHub page publishing](https://github.com/MuhdNurHidayat/qrcodejs). Zhiyuan Ling has forked it from [KeeeX](https://github.com/KeeeX/qrcodejs) who had [added fix for Code Length Overflow Error](https://github.com/davidshimjs/qrcodejs/pull/109) and merged the [border option](https://github.com/davidshimjs/qrcodejs/pull/54) by [nosrevi](https://github.com/nosrevi/qrcodejs/tree/border). Both KeeeX and nosrevi forked from the [original repository](https://github.com/davidshimjs/qrcodejs).
 
 ## Basic Usages
 ```html
@@ -36,7 +36,9 @@ qrcode.clear(); // clear the code.
 qrcode.makeCode("https://github.com/KeeeX"); // make another code.
 ```
 
-### Using with webpack
+### Other versions
+
+#### Using with webpack (KeeeX)
 
 ```javascript
 const QRCode = require("@keeex/qrcodejs-kx");
